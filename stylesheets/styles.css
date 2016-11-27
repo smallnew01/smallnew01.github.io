@@ -21,8 +21,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
-
 /* Base text styles */
 
 body {
@@ -34,7 +32,7 @@ body {
 	margin: 0;
 	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
-
+font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -356,6 +354,7 @@ footer {
 
   header {
     padding-right:320px;
+    margin: 10px 10px 0 0;
   }
 
   section {
@@ -382,6 +381,7 @@ footer {
   header {
     padding:10px 20px 0;
 		margin-right: 0;
+    width: 700px;
   }
 
 	section {

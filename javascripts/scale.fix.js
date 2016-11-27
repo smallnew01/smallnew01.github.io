@@ -18,3 +18,22 @@ fixScale = function(doc) {
 	}
 
 };
+// function initzoom(){
+// 	var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+// 	var zoom = clientWidth / 320;
+// 	if (clientWidth > 640) {
+// 		zoom = 2;
+// 	}
+// 	window.zoom = zoom / 2;
+// 	document.write('<style id="htmlzoom">html{font-size:' + (zoom * 50) + 'px;}</style>');
+// 	window.addEventListener('resize', function() {
+// 		clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+// 		zoom = clientWidth / 320;
+// 		if (clientWidth > 640) {
+// 			zoom = 2;
+// 		}
+// 		window.zoom = zoom / 2;
+// 		document.getElementById('htmlzoom').innerHTML = 'html{font-size:' + (zoom * 50) + 'px;}';
+// 	});
+// }
+// initzoom();
